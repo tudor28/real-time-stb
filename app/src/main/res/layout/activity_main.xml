@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity"
+    android:keepScreenOn="true"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="32dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="527dp"
+        app:srcCompat="@mipmap/ic_launcher_driver" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="32dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="443dp"
+        app:srcCompat="@mipmap/ic_launcher_customer" />
+
+    <Button
+        android:id="@+id/customer"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="433dp"
+        android:text="Customer"
+        android:background="@drawable/button_background"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/driver"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_background"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="515dp"
+        android:text="STB Driver"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="127dp"
+        android:gravity="center"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="250dp"
+        android:text="Welcome!"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="349dp"
+        android:text="Please select the user type you want to log in with"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
+

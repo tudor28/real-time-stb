@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "719190437045",
+    "firebase_url": "https://real-time-stb.firebaseio.com",
+    "project_id": "real-time-stb",
+    "storage_bucket": "real-time-stb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719190437045:android:4fa9ceaf27ab42d6",
+        "android_client_info": {
+          "package_name": "com.example.licenta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "719190437045-6o2tuv4f763tega6j0ce9p2kjgchu9rm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUxRwnyZZQevrN-lIXPF3JLsKMenWL7Bg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "719190437045-6o2tuv4f763tega6j0ce9p2kjgchu9rm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

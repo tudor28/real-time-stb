@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Licenta</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="title_activity_customer_map">Map</string>
+    <string-array name="line">
+        <item>Choose a line...</item>
+        <item>41</item>
+        <item>85</item>
+        <item>105</item>
+        <item>131</item>
+        <item>205</item>
+        <item>282</item>
+        <item>335</item>
+        <item>601</item>
+        <item>780</item>
+    </string-array>
+    <string-array name="lineCustomer">
+        <item>Choose a line...</item>
+        <item>41</item>
+        <item>85</item>
+        <item>105</item>
+        <item>131</item>
+        <item>205</item>
+        <item>282</item>
+        <item>335</item>
+        <item>601</item>
+        <item>780</item>
+    </string-array>
+</resources>
